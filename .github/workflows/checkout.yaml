@@ -9,7 +9,7 @@ jobs:
               run: ls -a
             - name: Checkout
               uses: actions/checkout@v4
-            - name: List files After
+            - name: List files After 
               run: ls -a
     checkout-and-display-files:
         runs-on: ubuntu-latest
